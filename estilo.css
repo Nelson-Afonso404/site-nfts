@@ -1,0 +1,1266 @@
+
+body {
+    background-color: #2B2B2B;
+    font-family: 'Work Sans';
+    padding: 0px;
+    margin: 0px;
+    height: 2000px;
+}
+body::-webkit-scrollbar {
+    width: 12px;   
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #5b55ff;
+    border-radius: 20px;
+  }
+main{
+    position: fixed;
+    margin-left: 50px;
+    margin-right:50px;
+    top:0%;
+    z-index:9999;
+   
+}
+header{
+    margin-top: 20px;
+    height: 153px;
+    padding: 0%;
+    
+}
+#imageNav{
+    position: absolute;
+    width: 167px;
+    height: 50px;
+    left: 50px;
+    top: 20px;
+}
+
+#menu_principal {
+    position: absolute;
+    height: 40px;
+    width: 700px;
+    margin-left: 1100px;
+    top: 40px;
+    border-radius: 0px;
+}
+
+#menu_principal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menu_principal li {
+ display: inline;
+}
+/*editar Texto da navbar*/
+#menu_principal ul li a {
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 18px;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    margin-right: 10px;
+}
+
+#menu_principal ul li a:hover {
+    border: 2px solid #5B55FF;
+    border-radius: 20px;
+    background: none;
+    transition: 0.1s;
+    box-shadow: 0 0 20px #5B55FF;
+}
+#botao{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    left: 1270px;
+    top: 24px;
+    border-radius: 20px;
+    background: #5B55FF;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 20px;
+}
+#botao:hover{
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+    box-shadow: 0 0 20px #5B55FF;
+}
+#texto{
+    position: absolute;
+    width: 510px;
+    height: 222px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 67px;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+#texto2{
+    position: absolute;
+    width: 510px;
+    height: 105px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 390px;
+}
+#secao1{
+    margin-left: 195px;
+}
+#botao2{
+    
+    position: absolute;
+    height: 60px;
+    width: 244px;
+    top: 24px;
+    border-radius: 20px;
+    background: #5B55FF;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    margin-left:195 px;
+    margin-top: 500px;
+}
+#botao2:hover{
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+    box-shadow: 0 0 20px #5B55FF;
+}
+#card-main{
+    position: absolute;
+    background: url(main/images/nft/image1.png), no-repeat;
+    width: 510px;
+    height: 401px;
+    border-radius: 20px;
+    margin-top: 160px;
+    margin-left: 590px;
+}
+#quadrado{
+    background: #3B3B3B;
+    margin-top: 70%; 
+    width: 510px;
+    height: 109px;
+    border-radius: 0px 0px 20px 20px;
+}
+#titulo{
+    position:absolute;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 22px;
+}
+.circulo{
+    position: absolute;
+    background: url(main/images/Perfil/Perfil/anakin2.png);
+    border-radius: 120px;
+    width: 24px;
+    height: 24px;
+    
+    margin-top: 63px;
+}
+.perfil{
+  
+    position: absolute;
+    height: 24px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+.nome1{
+    position:absolute;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 63px;
+}
+
+#estatisticas{
+    position:absolute;
+    color:#FFFFFF;
+    display: flex;
+    margin-top: 600px;
+    
+}
+.vendas{
+    margin-right: 70px;
+    
+}
+
+.interacoes{
+    margin-right: 50px;
+}
+
+.t1, .t2, .t3{
+    position: absolute;
+    font-family: Space Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
+    padding: 0px;
+    margin-top: 10px;
+}
+.p1, .p2, .p3{
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 50px;
+}
+.titulo{
+    width: 1000px;
+    position: absolute;
+    margin-left: 195px ;
+    color: white;
+    margin-top: 740px;
+}
+.colecoes-alta{
+    position:absolute;
+    font-family: 'Work Sans';
+    width: 1000px;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FFFFFF;
+}
+.veja-alta{
+    width: 1046px;
+    height: 35px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 90px;
+
+}
+.nfts{
+    position: absolute;
+    display: flex;
+    width: 336px;
+    height: 546px;
+    margin-top: 900px;
+    margin-left: 195px;
+}
+.touro, .cogumelo, .menina{
+   margin-right: 50px;
+}
+
+.conteudo-botao{
+    position: absolute;
+    display: flex;
+    margin-left: 50px;
+    top: 23px;
+}
+#botao-colecao1, #botao-colecao2, #botao-colecao3{
+    margin-top: 15px;
+    border:none;
+    width: 336px;
+    height: 100px;
+    background: #5B55FF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+}
+#botao-colecao1:hover, #botao-colecao2:hover, #botao-colecao3:hover{
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+    box-shadow: 0 0 20px #5B55FF;
+}
+.circulo2{
+    position: absolute;
+    background: url(main/images/Perfil/Perfil/anakin2.png);
+    border-radius: 120px;
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
+.artistas2{
+    position: absolute;
+    height: 24px;
+    border-radius: 20px;
+}
+.nome2{
+    position:absolute;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.titulo1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 500px;
+}
+.perfil-artista{
+    position:absolute;
+    top: 50px;
+}
+.section-principais{
+    position: absolute;
+    width: 1050px;
+    height: 91px;
+    margin-top: 1500px;
+    margin-left: 195px;
+}
+.criador1,.criador4,.criador8{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 238px;
+    background: #3B3B3B;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.rank1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    margin-top: 20px;
+    background: #2B2B2B;
+    border-radius: 20px;
+}
+.number1{
+    position: absolute;
+    width: 10px;
+    height: 22px;
+    left: calc(50% - 10px/2);
+    margin-top: 4px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    color: #858584;
+    }
+.perfil-criador{
+    background: url(main/images/Perfil/Perfil/anakin120.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador2{
+    background: url(main/images/Perfil/Perfil/MoonDancer.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador3{
+    background: url(main/images/Perfil/Perfil/NebulaKid.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador4{
+    background: url(main/images/Perfil/Perfil/Spaceone.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador5{
+    background: url(main/images/Perfil/Perfil/Juanie.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador6{
+    background: url(main/images/Perfil/Perfil/DigiLab.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador7{
+    background: url(main/images/Perfil/Perfil/Dotgu.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.perfil-criador8{
+    background: url(main/images/Perfil/Perfil/RustyRobot.jpg.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin-top: 20px;
+}
+.nome-criador{
+    position: absolute;
+    margin-top: 160px;
+    width: 200px;
+    height: 31px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.vendas-criador{
+    position: absolute;
+    width: 200px;
+    height: 22px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #858584;
+    margin-top: 196px;
+}
+#linha1{
+    position: absolute;
+    display:flex;
+    width: 1050px;
+    height: 238px
+    
+}
+#linha2{
+    position: absolute;
+    display: flex;
+    width: 1050px;
+    height: 238px;
+    margin-top: 300px;
+}
+#card-news{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+
+    width: 987px;
+    height: 350px;
+
+    background: #3B3B3B;
+    border-radius: 20px;
+    margin-top: 2400px;
+    margin-left: 195px;
+}
+#img-news{
+    width: 393.5px;
+    height: 310px;
+    background: url(main/images/nft/astronauta.png);
+    border-radius: 20px;
+}
+#titulo-news{
+    width: 393.5px;
+    height: 92px;
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+    margin-left: 470px;
+    top: 20px;
+
+    color: #FFFFFF;
+}
+#subtitulo-news{
+    width: 393.5px;
+    height: 140px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    margin-left: 470px;
+    margin-top: 80px;
+    color: #FFFFFF;
+}
+.input-newsletter{
+    margin-left: 470px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 393.5px;
+    height: 60px;
+}
+#input-email{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 371.5px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B2B2B;
+    padding-left: 30px;
+}
+#botao-news{
+    position: relative;
+    align-items: center;
+    margin-left:198.5px ;
+    width: 205px;
+    height: 63px;
+    background: #5B55FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#botao-news:hover{
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+    color:#3b3b3b;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 195px;
+    position: absolute;
+    width: 1134px;
+    height: 370px;
+    margin-top: 3000px;
+    background: #3B3B3B;
+}
+.logo-footer{
+    position: absolute;
+    width: 119px;
+    height: 38.33px;
+}
+.comunidade{
+    width: 238px;
+    height: 18px;
+    margin-top: 69px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+
+a#discord{
+    background: url(main/images/logo/discord.svg)no-repeat;  
+}
+a#discord:hover{
+    opacity: 50%; 
+}
+a#youtube{
+    background: url(main/images/logo/youtube.svg)no-repeat;  
+}
+a#youtube:hover{
+    opacity: 50%; 
+}
+a#twitter{
+    background: url(main/images/logo/twitter.svg)no-repeat;  
+}
+a#twitter:hover{
+    opacity: 50%; 
+}
+a#instagram{
+    background: url(main/images/logo/instagram.svg)no-repeat;  
+}
+a#instagram:hover{
+    opacity: 50%; 
+}
+#comunidade ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+#comunidade li {
+    display: inline;
+}
+#comunidade ul li a {
+    height: 34px;
+    width: 34px;
+    display: block;
+    text-indent: -9000px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px; 
+}
+.h1-explorar{
+    width: 108px;
+    height: 35px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.explorar-footer{
+    position: absolute;
+    margin-left: 332px;
+    top: 20px;
+}
+.l1,.l2{
+    position: absolute;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #CCCCCC;
+    margin-top: 10px;
+}
+.l2{
+    margin-top: 60px;
+}
+.h1-news-footer{
+    position: absolute;
+    
+    width: 405px;
+    height: 35px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+#newsletter-footer{
+    position:absolute;
+    top:20px;
+    margin-left: 660px;
+}
+.texto-footer{
+    position:absolute;
+    width: 330px;
+    height: 66px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
+    margin-top:90px;
+}
+.input-newsletter2{
+    margin-left: 0px;
+    margin-top: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 393.5px;
+    height: 60px;
+}
+#input-email2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 371.5px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B2B2B;
+    padding-left: 30px;
+}
+#botao-news2{
+    position: relative;
+    align-items: center;
+    margin-left:198.5px ;
+    width: 205px;
+    height: 63px;
+    background: #5B55FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#botao-news2:hover{
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+    color:#3b3b3b;
+}
+hr{
+    margin-top: 150px;
+}
+.copy{
+    width: 997px;
+    height: 15px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #CCCCCC;
+}
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }
+  .line1{
+    max-width: 45%;
+  }
+  .line3{
+    max-width: 45%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width:1024px){
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    #texto{
+        width: 330px;
+        height: 138px;
+        font-size: 38px;
+    }
+    #texto2{
+        width: 330px;
+        height: 88px;
+        font-size: 16px;
+        margin-top: 300px;
+    }
+    #secao1{
+        margin-left: 72px;
+    }
+    #botao2{
+        width: 202px;
+        height: 60px;
+        top: 24px;
+        margin-top: 400px;
+    }
+    #card-main{
+        margin-top: 160px;
+        margin-left: 340px;
+        max-width:50% ;
+    }
+    #quadrado{
+        max-width:100% ;
+        margin-top: 80%;
+    }
+    #estatisticas{
+        margin-top: 500px;
+        
+    }
+    .vendas{
+        margin-right: 20%;
+        
+    }
+
+    .interacoes{
+        margin-right: 10%;
+    }
+
+    .t1, .t2, .t3{
+        font-size: 22px;
+    }
+    .p1, .p2, .p3{
+        font-size: 16px;
+    }
+    #menu_principal{
+        position: absolute;
+        margin-left: 540px;
+        top:30px;
+    }
+    #menu_principal ul li a{
+        left: 30px;
+    }
+    #botao{
+        position: absolute;
+        left:700px;
+        top: 20px;
+    }
+    .titulo{
+        margin-left: 72px;
+        margin-top: 650px;
+    }
+    .veja-alta{
+        margin-top: 80px;
+        width: 690px;
+        height: 22px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .colecoes-alta{
+        width: 690px;
+        height: 39px;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .menina{
+        display:none;
+    }
+    .nfts{
+        margin-left: 72px;
+        margin-top: 820px;
+    }
+    .cogumelo{
+        margin-left: 90px;
+    }
+    
+    .section-principais{
+        position: absolute;
+        width: 1050px;
+        height: 91px;
+        margin-top: 1400px;
+        margin-left: 72px;
+    }
+    .perfil-criador4,.perfil-criador8{
+        display: none;
+    }
+    .criador1{
+        width: 250px;
+        background: #3B3B3B;
+        border-radius: 20px;
+        margin-top: 60px;
+        margin-right: 40px;
+    }
+    .criador4,.criador8{
+        display: none;
+    }
+    
+    #card-news{
+        width: 834px;
+        height: 502px;
+        margin-left: 72px;
+        margin-top: 2200px;
+        padding: 0px;
+    }
+    #img-news{
+        width: 300px;
+        height: 302px;
+        margin-left: 30px;
+    }
+    
+    #titulo-news{
+        margin-left: 360px;
+        font-size: 28px;
+        margin-top: 80px;
+    }
+    #subtitulo-news{
+        margin-left: 360px;
+        width: 300px;
+        height: 66px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .input-newsletter{
+        padding: 0px;
+        position: absolute;
+        align-items: center;
+        margin-left: 470px;
+        width: 393.5px;
+        height: 60px;
+        padding:0px ;
+    }
+    #input-email{
+        right: 200px;
+        padding-left: 20px;
+        width: 280px;
+        height: 46px;
+    }
+    #botao-news{
+        right: 200px;
+        position: absolute;
+        margin-top: 40px;
+        padding: 0px;    
+        width: 300px;
+        height: 46px;
+        margin-left: 0px;
+    }
+    footer{
+        display: block;
+        padding: 40px 72px;
+        position: absolute;   
+        width: 834px;
+        height: 664px;
+        margin-top: 2800px;
+        background: #3B3B3B;
+    }
+    hr{
+        margin-top: 65%;
+    }
+    .explorar-footer{
+        margin-left: 0px;
+        position: absolute;
+        top: 190px;
+    }
+    .h1-news-footer{
+        position: absolute;
+        width: 405px;
+        height: 35px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    #newsletter-footer{
+        position:absolute;
+        top:375px;
+        margin-left: 0px;
+    }
+    .texto-footer{
+        position:absolute;
+        width: 330px;
+        height: 66px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #CCCCCC;
+        margin-top:90px;
+    }
+    .input-newsletter2{
+        margin-top: 186px;
+        margin-left: 0px;
+    }
+    
+  }
+  @media only screen and (max-width: 768px){
+     #imageNav{
+        left: 0px;
+        margin-right: 0px;
+        right: auto;
+        display: none;
+     }
+     main{
+        position: absolute;
+       
+    }
+    header{
+        margin-top: 20px;
+        height: 153px;
+        padding: 0%;
+        
+    }
+    #menu_principal {
+        height: 40px;
+        width: 375px;
+        margin-left: 0px;
+        top: 30px;
+        border-radius: 0px;
+    }
+    
+    #menu_principal ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    #menu_principal li {
+     display: inline;
+    }
+    /*editar Texto da navbar*/
+    #menu_principal ul li a {
+        padding-left: 0px;
+        margin-right: 10px;
+    }
+    
+    #menu_principal ul li a:hover {
+        border: 2px solid #5B55FF;
+        border-radius: 20px;
+        background: none;
+        transition: 0.1s;
+        box-shadow: 0 0 20px #5B55FF;
+    }
+    #botao{
+        position: absolute;
+        height: 50px;
+        width: 100px;
+        left: 200px;
+        top: 24px;
+        border-radius: 20px;
+        background: #5B55FF;
+        font-weight: 700;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 0px;
+    }
+     #texto{     
+        width: 315px;
+        height: 78px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 140%;
+        
+    }
+    #texto2{
+        width: 315px;
+        height: 88px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        margin-top: 280px;
+    }
+    #secao1{
+        margin-left: 30px;
+    }
+    #botao2{
+        width: 315px;
+        height: 60px;
+        top: 24px;
+        margin-top: 800px;
+    }
+    #card-main{
+        margin-top: 430px;
+        margin-left: 0px;
+        width: 315px;
+        height: 315px;
+    }
+    #quadrado{
+        max-width:100% ;
+        margin-top: 80%;
+    }
+    #estatisticas{
+        margin-top: 900px;
+        
+    }
+    .t1, .t2, .t3{
+        font-size: 22px;
+    }
+    .p1, .p2, .p3{
+        font-size: 16px;
+    }
+    .vendas{
+        margin-right: 50px;
+    }
+    .interacoes{
+        margin-right: 40px;
+    }
+    .titulo{
+        width: 375px;
+        margin-left: 30px;
+        margin-top: 990px;
+    }
+    .veja-alta{
+        margin-top: 80px;
+        width: 375px;
+        height: 22px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .colecoes-alta{
+        width: 375px;
+        height: 39px;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    .menina{
+        display:none;
+    }
+    .nfts{
+        display: block;
+        margin-left: 30px;
+        margin-top: 1150px;
+    }
+    .cogumelo{
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    
+    .section-principais{
+        position: absolute;
+        width: 375px;
+        height: 91px;
+        margin-top: 2270px;
+        margin-left: 30px;
+    }
+    .perfil-criador4,.perfil-criador8{
+        display: none;
+    }
+    .colecoes-alta{
+        font-size: 28px;
+    }
+    .veja-alta{
+        width: 315px;
+        height: 44px;
+        font-size: 16px;
+    }
+    
+    #linha2{
+        width: 375px;
+        display: none;
+    }
+    #linha1{
+        width: 375px;
+        display: block;
+    }
+    .criador1{
+        margin-top: 30px;
+        width: 350px;
+    }
+    .criador4{
+        display: none;
+    }
+    #card-news{
+        width: 355px;
+        height: 667px;
+        margin-left: 30px;
+        margin-top: 3300px;
+        padding: 0px;
+    }
+    #img-news{
+        position: absolute;
+        padding:0px ;
+        width: 315px;
+        height: 255px;
+        margin-left: 20px;
+        margin-top: 10px;
+        top: 20px;
+    }
+    
+    #titulo-news{
+        margin-left: 0px;
+        font-size: 28px;
+        margin-top: 280px;
+    }
+    #subtitulo-news{
+        margin-left: 0px;
+        margin-top: 390px;
+        width: 315px;
+        height: 66px;
+        font-size: 16px;
+    }
+    .input-newsletter{
+        margin-left: 0px;
+        margin-top: 50px;
+        width: 324px;
+        height: 60px;
+    }
+    #input-email{
+        width: 285px;
+        height: 60px;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    #botao-news{
+        margin-left: 164px;
+        width: 143px;
+        height: 64px;
+    }
+    .titulo1{
+        width: 375px;
+    }
+    footer{
+        padding: 40px 30px;
+        width: 375px;
+        height: 759px;
+        margin-top: 4070px;
+    }
+    hr{
+        margin-top: 450px;
+    }
+    .explorar-footer{
+        margin-left: 0px;
+        position: absolute;
+        top: 190px;
+    }
+    .h1-news-footer{
+        position: absolute;
+        width: 315px;
+        height: 35px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+    #newsletter-footer{
+        position:absolute;
+        top:375px;
+        margin-left: 0px;
+    }
+    .texto-footer{
+        position:absolute;
+        width: 315px;
+        height: 66px;
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #CCCCCC;
+        margin-top:90px;
+    }
+    .input-newsletter2{
+        width: 375px;
+        margin-top: 186px;
+        margin-left: 0px;
+    }
+    #input-email2{
+        width: 285px;
+        height: 60px;
+        padding-left: 15px;
+        font-size: 14px;
+    }
+    #botao-news2{
+        margin-left: 164px;
+        width: 143px;
+        height: 64px;
+    }
+    .copy{
+        width: 375px;
+    }
+}

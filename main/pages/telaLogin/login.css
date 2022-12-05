@@ -1,0 +1,359 @@
+body {
+    background: #2B2B2B;
+    margin: 0px;
+    font-family: Work Sans;
+}
+#main{
+    position: fixed;
+    margin-left: 50px;
+    margin-right:50px;
+    top:0%;
+    z-index:9999;
+   
+}
+header{
+    margin-top: 20px;
+    height: 153px;
+    padding: 0%;
+    
+}
+#imageNav{
+    position: absolute;
+    width: 167px;
+    height: 50px;
+    left: 50px;
+    top: 20px;
+}
+
+#menu_principal {
+    position: absolute;
+    height: 40px;
+    width: 700px;
+    margin-left: 1030px;
+    top: 40px;
+    border-radius: 0px;
+    
+    
+}
+
+#menu_principal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#menu_principal li {
+ display: inline;
+}
+/*editar Texto da navbar*/
+#menu_principal ul li a {
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 14px;
+    line-height: 18px;
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    margin-right: 10px;
+}
+
+#menu_principal ul li a:hover {
+    border: 2px solid #5B55FF;
+    border-radius: 20px;
+    background: none;
+    transition: 0.1s;
+    box-shadow: 0 0 20px #5B55FF;
+}
+#botao{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    left: 1270px;
+    top: 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 20px;
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+}
+#texto{
+    position: absolute;
+    width: 510px;
+    height: 222px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 67px;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+#texto2{
+    position: absolute;
+    width: 510px;
+    height: 105px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-top: 390px;
+}
+main.quadro_principal {
+    margin-top: 90px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    position: fixed;
+    width: 1280px;
+    height: 651px;
+    /* left: 20px; */
+    background: #2B2B2B;
+}
+
+img#imagem_principal{
+    width: 610px;
+    height: 651px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    margin-left: 0px;
+}
+
+#criar_contas {
+    width: 460px;
+    height: 56px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 51px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    color: #fff;
+}
+
+#subtitulo {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #fff;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 12px;
+    width: 330px;
+    height: 46px;
+    background: #FFFFFF;
+    border: 1px solid #858584;
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.input-icons fa-user {
+    position: absolute;
+    left: 21.88%;
+    right: 21.88%;
+    top: 9.38%;
+    bottom: 34.38%;
+    /* Gray 4 */
+    background: #BDBDBD;
+}
+
+#botao_logar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    gap: 12px;
+    width: 330px;
+    height: 46px;
+    background: #5B55FF;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    color: #fff;
+    border: none;
+}
+#botao_logar:hover{
+    border: 2px solid #5B55FF;
+    background: none;
+    transition: 0.1s;
+    box-shadow: 0 0 20px #5B55FF;
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    img#imagem_principal{
+        width: 397px;
+        height: 615px;
+    }
+    main.quadro_principal {
+        width: 834px;
+        height: 615px;
+    }
+    #criar_contas{
+        width: 325px;
+        height: 46px;
+        font-size: 38px;
+    }
+    #subtitulo{
+        font-size: 16px;
+        width: 325px;
+        height: 44px;
+    }
+    input{
+        width: 325px;
+        height: 44px;
+        font-size: 16px;
+    }
+    header{
+        margin-top: 20px;
+        height: 153px;
+        padding: 0%;
+        
+    }
+    #menu_principal{
+        position: absolute;
+        margin-left: 540px;
+        top:30px;
+    }
+    #menu_principal ul li a{
+        left: 30px;
+    }
+    #botao{
+        position: absolute;
+        left:700px;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    html,body{
+        height: 950px;
+    }
+    img#imagem_principal{
+        position: absolute;
+        height: 232px;
+        max-width: 100%;
+    }
+    main.quadro_principal {
+        position: absolute;
+        width: 375px;
+        height: 747px;
+        margin-top: 130px;
+    }
+    #criar_contas{
+        position: absolute;
+        width: 315px;
+        height: 46px;
+        font-size: 38px;
+        margin-top: 30px;
+    }
+    #subtitulo{
+        position: absolute;
+        width: 315px;
+        height: 44px;
+        font-size: 16px;
+        margin-top: 96px;
+    }
+    input{
+        width: 325px;
+        height: 44px;
+        font-size: 16px;
+    }
+    header{
+        position: absolute;
+        margin-top: 20px;
+        height: 153px;
+        padding: 0%;
+        
+    }
+    .inputs{
+        position: absolute;
+        margin-top: 190px;    
+    }
+    #quadro_login{
+        margin-left: 30px;
+        position: absolute;
+        width: 325px;
+        height: 410px;
+        top: 220px;
+    }
+    #menu_principal {
+        height: 40px;
+        width: 375px;
+        margin-left: 0px;
+        top: 30px;
+        border-radius: 0px;
+    }
+    
+    #menu_principal ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    #menu_principal li {
+     display: inline;
+    }
+    /*editar Texto da navbar*/
+    #menu_principal ul li a {
+        padding-left: 0px;
+        margin-right: 10px;
+    }
+    
+    #menu_principal ul li a:hover {
+        border: 2px solid #5B55FF;
+        border-radius: 20px;
+        background: none;
+        transition: 0.1s;
+        box-shadow: 0 0 20px #5B55FF;
+    }
+    #botao{
+        position: absolute;
+        height: 50px;
+        width: 100px;
+        left: 200px;
+        top: 24px;
+        border-radius: 20px;
+        background: #5B55FF;
+        font-weight: 700;
+        color: #FFFFFF;
+        border: none;
+        margin-left: 0px;
+    }
+    #imageNav{
+        left: 0px;
+        margin-right: 0px;
+        right: auto;
+        display: none;
+     }
+     #main{
+        position: absolute;
+     }
+}
